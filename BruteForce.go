@@ -94,7 +94,7 @@ func main() {
 	// Input dari user
 	var budget float64
 	var mealsPerDay int
-	fmt.Println("Masukkan budget makan per minggu: ")
+	fmt.Println("Masukkan budget makan per minggu (ex. 350): ")
 	fmt.Scan(&budget)
 	fmt.Println("Masukkan berapa kali makan per hari (2-4 kali): ")
 	fmt.Scan(&mealsPerDay)
